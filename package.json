@@ -10,13 +10,17 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@nuxtjs/vuetify": "^1.11.3",
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
     },
     "dependencies": {
-        "@nuxtjs/vuetify": "^1.11.3",
-        "vue": "^2.6.12"
+        "deepmerge": "^4.2.2",
+        "sass": "^1.32.12",
+        "sass-loader": "^11.0.1",
+        "vue": "^2.6.12",
+        "vuetify": "^2.4.11"
     }
 }
